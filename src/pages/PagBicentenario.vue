@@ -169,7 +169,6 @@ export default {
                     titulo: 'Zona de siembra',
                     contenido: 'Área dedicada al cultivo de vegetación, esta práctica promueve la educación ambiental.',
                     imagenes: [
-                        require('@/assets/img/bicentenario/siembra/1.jpeg'),
                         require('@/assets/img/bicentenario/siembra/2.jpeg'),
                         require('@/assets/img/bicentenario/siembra/3.jpeg'),
                     
