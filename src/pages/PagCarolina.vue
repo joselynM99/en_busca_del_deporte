@@ -256,6 +256,9 @@ export default {
         // Agregar un escuchador de eventos para el cambio de tamaño de la ventana
         window.addEventListener('resize', this.actualizarCoordenadas);
     },
+    mounted(){
+        window.addEventListener('resize', this.actualizarCoordenadas);
+    },
 
     unmounted() {
         // Remover el escuchador de eventos cuando el componente se destruye para evitar fugas de memoria
