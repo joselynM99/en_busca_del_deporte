@@ -34,7 +34,7 @@
                 también cuentan con áreas recreativas destinadas para los niños. Son lugares en los que nunca podremos
                 aburrirnos.</p>
             <hr>
-           
+            <img src="@/assets/img/Slides/slide8.jpeg" class="d-block w-70" alt="">
 
         </div>
 
@@ -69,7 +69,7 @@ export default {
 }
 
 img {
-    width: 95%;
+    width: 70%;
 }
 
 .images-container img {
