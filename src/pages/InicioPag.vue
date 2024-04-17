@@ -13,11 +13,6 @@
                         <ul class="list-unstyled">
                             <li><i class="bi bi-person"></i> CHILIQUINGA SCARLETH</li>
                             <li><i class="bi bi-person"></i> MONCAYO PAMELA</li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list-unstyled">
                             <li><i class="bi bi-person"></i> PALOMINO DANIEL</li>
                             <li><i class="bi bi-person"></i> PAREDES PAULA</li>
                             <li><i class="bi bi-person"></i> SALAZAR DARLA</li>
