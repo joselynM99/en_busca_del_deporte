@@ -33,32 +33,41 @@
                 width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <hr>
         <h3>¿Cómo llegar?</h3>
         <div id="ubi">
 
             <div class="op">
                 <h5>Opción 1: Metro de Quito</h5>
-                <p>El Metro de Quito realiza un recorrido de 15 estaciones desde Quitumbe hasta El Labrador pero hay
-                    dos opciones principales a las cual llegar al parque La Carolina resulta extremadamente sencillo,
-                    estas son:</p>
-                <p> - Estación La Carolina, ubicada al extremo sur del parque.</p>
-                <p> - Estación Iñaquito, ubicada al extremo norte del parque.</p>
+                <div>
+                    <p>El Metro de Quito realiza un recorrido de 15 estaciones desde Quitumbe hasta El Labrador pero hay
+                        dos opciones principales a las cual llegar al parque La Carolina resulta extremadamente
+                        sencillo,
+                        estas son:</p>
+                    <p> - Estación La Carolina, ubicada al extremo sur del parque.</p>
+                    <p> - Estación Iñaquito, ubicada al extremo norte del parque.</p>
 
-                <p>Con este recorrido establecido es practicamente imposible perderse,
-                    encontraremos el parque en cuestion de segundos.</p>
+                    <p>Con este recorrido establecido es practicamente imposible perderse,
+                        encontraremos el parque en cuestion de segundos.</p>
+                </div>
+
             </div>
             <div class="op">
                 <h5>Opción 2: Corredor Sur Occidental</h5>
                 <div>
-                    <p>Desde la parada La Santiago hay solo una opcion de autobus a la cual subirnos para llegar al
-                        parque La Carolina:</p>
-                    <p> - R1: Nos dejara en la Av. Naciones Unidas y la Av. Los Shyris, nos dejara practicamente
-                        en una de las esquinas del parque.</p>
-                </div>
-                <div>
-                    <p>Desde la parada El Pintado existen dos opciones:</p>
-                    <p> - R1 y R2, ambas
-                        nos dejaran exactamente en las mismas calles.</p>
+
+
+                    <div>
+                        <p>Desde la parada La Santiago hay solo una opcion de autobus a la cual subirnos para llegar al
+                            parque La Carolina:</p>
+                        <p> - R1: Nos dejara en la Av. Naciones Unidas y la Av. Los Shyris, nos dejara practicamente
+                            en una de las esquinas del parque.</p>
+                    </div>
+                    <div>
+                        <p>Desde la parada El Pintado existen dos opciones:</p>
+                        <p> - R1 y R2, ambas
+                            nos dejaran exactamente en las mismas calles.</p>
+                    </div>
                 </div>
             </div>
 
