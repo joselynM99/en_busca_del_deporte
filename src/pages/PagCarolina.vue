@@ -26,11 +26,45 @@
         </ul>
 
         <hr>
-        <h3>Ubicación</h3>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.18896030822!2d-78.49533872451161!3d-0.18625129697807313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7ce9ba8755%3A0x755f2bd0d36e70a7!2sLa%20Carolina%2C%20Quito!5e0!3m2!1ses!2sec!4v1713318396250!5m2!1ses!2sec"
-            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+            <h3>Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.18896030822!2d-78.49533872451161!3d-0.18625129697807313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7ce9ba8755%3A0x755f2bd0d36e70a7!2sLa%20Carolina%2C%20Quito!5e0!3m2!1ses!2sec!4v1713318396250!5m2!1ses!2sec"
+                width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h3>¿Cómo llegar?</h3>
+        <div id="ubi">
+
+            <div class="op">
+                <h5>Opción 1: Metro de Quito</h5>
+                <p>El Metro de Quito realiza un recorrido de 15 estaciones desde Quitumbe hasta El Labrador pero hay
+                    dos opciones principales a las cual llegar al parque La Carolina resulta extremadamente sencillo,
+                    estas son:</p>
+                <p> - Estación La Carolina, ubicada al extremo sur del parque.</p>
+                <p> - Estación Iñaquito, ubicada al extremo norte del parque.</p>
+
+                <p>Con este recorrido establecido es practicamente imposible perderse,
+                    encontraremos el parque en cuestion de segundos.</p>
+            </div>
+            <div class="op">
+                <h5>Opción 2: Corredor Sur Occidental</h5>
+                <div>
+                    <p>Desde la parada La Santiago hay solo una opcion de autobus a la cual subirnos para llegar al
+                        parque La Carolina:</p>
+                    <p> - R1: Nos dejara en la Av. Naciones Unidas y la Av. Los Shyris, nos dejara practicamente
+                        en una de las esquinas del parque.</p>
+                </div>
+                <div>
+                    <p>Desde la parada El Pintado existen dos opciones:</p>
+                    <p> - R1 y R2, ambas
+                        nos dejaran exactamente en las mismas calles.</p>
+                </div>
+            </div>
+
+
+        </div>
+
         <hr>
         <h2>Explorando el Parque: Deporte, Entretenimiento y Naturaleza</h2>
 
@@ -256,7 +290,7 @@ export default {
         // Agregar un escuchador de eventos para el cambio de tamaño de la ventana
         window.addEventListener('resize', this.actualizarCoordenadas);
     },
-    mounted(){
+    mounted() {
         window.addEventListener('resize', this.actualizarCoordenadas);
     },
 
@@ -326,11 +360,41 @@ export default {
 </script>
 
 <style scoped>
+#ubi {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0 3%;
+    font-size: 14px;
+    width: 150%;
+}
+
+.op h5 {
+    margin-top: 0;
+}
+
+#ubi::after {
+    content: '';
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 20px;
+}
+
 h3 {
     color: #276E56;
 }
 
-#info{
+#info {
     text-align: left;
 }
 

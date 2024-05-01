@@ -29,11 +29,34 @@
         </ul>
 
         <hr>
-        <h3>Ubicación</h3>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63836.76912677647!2d-78.53070297659522!3d-0.18254624574971004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59012c10c3417%3A0x6fa6f445d9a711a3!2sParque%20Bicentenario!5e0!3m2!1ses!2sec!4v1713319460463!5m2!1ses!2sec"
-            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+            <h3>Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63836.76912677647!2d-78.53070297659522!3d-0.18254624574971004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59012c10c3417%3A0x6fa6f445d9a711a3!2sParque%20Bicentenario!5e0!3m2!1ses!2sec!4v1713319460463!5m2!1ses!2sec"
+                width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <hr>
+        <h3>¿Cómo llegar?</h3>
+        <div id="ubi">
+
+            <div class="op">
+                <h5>Opción 1: Metro de Quito</h5>
+                <p>El Metro de Quito realiza un recorrido de 15 estaciones desde Quitumbe hasta El Labrador, y es
+                    exactamente esta ultima estacion en la que deberemos bajarnos para llegar al parque El Bicentenario.
+                    Desde El Labrador a mano derecha siguiendo en linea recta la Av. Río Amazonas encontraremos
+                    facilmente el parque.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="op">
+                <h5>Opción 2: Trolebus</h5>
+                <p>Terminal de buses El Recreo hay una sola ruta que nos llevara la Plaza de Toros, esta ruta es el C1.
+                    Una vez llegamos a la Plaza de Toros caminaremos al norte por la Av. 10 de Agosto hacia la Av. El
+                    Inca, llegaremos al Labrador y caminaremos en linea recta por la Av. Río Amazonas. Así, facilmente,
+                    encontraremos el parque Bicetenario.</p>
+            </div>
+        </div>
+
         <hr>
         <h2>Explorando el Parque: Deporte, Entretenimiento y Naturaleza</h2>
 
@@ -120,7 +143,7 @@ export default {
                     contenido: 'Equipada con barras, pesas, cuerdas y otros equipos específicos para la práctica de este tipo de entrenamiento de alta intensidad.',
                     imagenes: [
                         require('@/assets/img/bicentenario/cross/1.jpeg'),
-                       
+
                         // Agrega más imágenes según las necesidades
                     ]
                 },
@@ -171,7 +194,7 @@ export default {
                     imagenes: [
                         require('@/assets/img/bicentenario/siembra/2.jpeg'),
                         require('@/assets/img/bicentenario/siembra/3.jpeg'),
-                    
+
                     ]
                 },
 
@@ -195,7 +218,7 @@ export default {
         // Agregar un escuchador de eventos para el cambio de tamaño de la ventana
         window.addEventListener('resize', this.actualizarCoordenadas);
     },
-    mounted(){
+    mounted() {
         window.addEventListener('resize', this.actualizarCoordenadas);
     },
     unmounted() {
@@ -264,6 +287,35 @@ export default {
 </script>
 
 <style scoped>
+#ubi {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0 3%;
+    font-size: 14px
+}
+
+.op h5 {
+    margin-top: 0;
+}
+
+#ubi::after {
+    content: '';
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 20px;
+}
+
 h3 {
     color: #276E56;
 }

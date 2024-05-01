@@ -8,8 +8,6 @@
             <div id="integ">
                 <h2>Integrantes</h2>
                 <div class="row">
-
-                    <div class="col-md-6">
                         <ul class="list-unstyled">
                             <li><i class="bi bi-person"></i> CHILIQUINGA SCARLETH</li>
                             <li><i class="bi bi-person"></i> MONCAYO PAMELA</li>
@@ -17,7 +15,6 @@
                             <li><i class="bi bi-person"></i> PAREDES PAULA</li>
                             <li><i class="bi bi-person"></i> SALAZAR DARLA</li>
                         </ul>
-                    </div>
                 </div>
             </div>
             <!-- Imágenes -->
